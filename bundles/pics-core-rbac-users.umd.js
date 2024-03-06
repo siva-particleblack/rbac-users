@@ -1222,6 +1222,7 @@
         UsersComponent.prototype.cancelUser = function () {
             this.sendCredentials = true;
             this.userForm.reset();
+            this.initializeForm();
             this.userForm.patchValue({
                 isenabled: true,
                 islocked: false,
