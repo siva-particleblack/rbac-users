@@ -1221,25 +1221,11 @@
         };
         UsersComponent.prototype.cancelUser = function () {
             this.sendCredentials = true;
+            this.formSubmit = false;
             this.userForm.reset();
-            this.initializeForm();
             this.userForm.patchValue({
                 isenabled: true,
-                islocked: false,
-                firstname: '',
-                middlename: '',
-                lastname: '',
-                username: '',
-                // dob: '',
-                email: '',
-                userroles: '',
-                userteams: '',
-                userpolicygroups: '',
-                organizationid: '',
-                emailtocurrentuser: false,
-                providerId: '',
-                providerAccount: false,
-                thumbnail: ''
+                islocked: false
             });
             this.userForm.controls['email'].enable();
             this.userForm.controls['username'].enable();
