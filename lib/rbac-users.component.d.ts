@@ -10,8 +10,9 @@ export declare class RbacUsersComponent implements OnInit {
     RBACORG: RBACINFO;
     PERMISSION: any;
     COMMONSERVICE: Observable<any>;
+    INPUTVALIDATIONMETHOD?: any;
     constructor(permissionStore: PermissionStore, _storeservice: DataStoreService);
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<RbacUsersComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<RbacUsersComponent, "rbac-users", never, { "RBACORG": "RBACORG"; "PERMISSION": "PERMISSION"; "COMMONSERVICE": "COMMONSERVICE"; }, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<RbacUsersComponent, "rbac-users", never, { "RBACORG": "RBACORG"; "PERMISSION": "PERMISSION"; "COMMONSERVICE": "COMMONSERVICE"; "INPUTVALIDATIONMETHOD": "INPUTVALIDATIONMETHOD"; }, {}, never, never>;
 }

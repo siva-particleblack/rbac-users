@@ -46,12 +46,19 @@ export declare class UsersComponent implements OnInit {
     modelFirstName: string;
     modelMiddleName: string;
     modelLastName: string;
+    rolePolicyGroups: any;
+    userPolicyGroups: any;
+    validationErrors: {
+        [key: string]: string;
+    };
+    inputValidationMethod: any;
     constructor(userService: UserOrgService, fb: FormBuilder, alertService: AlertService, _storeservice: DataStoreService);
     ngOnInit(): void;
     initializeForm(): void;
     get formValidate(): {
         [key: string]: import("@angular/forms").AbstractControl;
     };
+    onInput(event: Event, fieldtype: any, label: any, required: boolean): void;
     getUserList(_key?: string): void;
     getRolesList(): void;
     clearSearch(event: Event): void;
@@ -64,6 +71,7 @@ export declare class UsersComponent implements OnInit {
     cancel(): void;
     searchUser(event: Event): void;
     getUserInfo(user: any): void;
+    removeValue(e: any, item: any): void;
     getRolePolicyGroups(roleId: any): void;
     delete(event: Event, id: any): void;
     deleteUser(): void;
