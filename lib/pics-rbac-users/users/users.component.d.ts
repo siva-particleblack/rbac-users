@@ -52,6 +52,7 @@ export declare class UsersComponent implements OnInit {
         [key: string]: string;
     };
     inputValidationMethod: any;
+    policyGroupsLength: any;
     constructor(userService: UserOrgService, fb: FormBuilder, alertService: AlertService, _storeservice: DataStoreService);
     ngOnInit(): void;
     initializeForm(): void;
@@ -68,7 +69,7 @@ export declare class UsersComponent implements OnInit {
     userWithID(userData: any): void;
     mapUserToRole(userId: any, roleId: any): void;
     onClickAddUser(): void;
-    cancel(): void;
+    cancel(changeFlag: any): void;
     searchUser(event: Event): void;
     getUserInfo(user: any): void;
     removeValue(e: any, item: any): void;
@@ -84,9 +85,8 @@ export declare class UsersComponent implements OnInit {
     removeThumbnail(): void;
     validateImage(file: any): boolean;
     stopPropagation(event: Event): void;
-    onModelFirst(value: string): void;
-    onModelMiddle(value: string): void;
-    onModelLast(value: string): void;
+    selectPolicyGroup(): void;
+    onPageNameInput(event: KeyboardEvent, name: string): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<UsersComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<UsersComponent, "users", never, { "RBACORG": "RBACORG"; "PERMISSION": "PERMISSION"; }, {}, never, never>;
 }

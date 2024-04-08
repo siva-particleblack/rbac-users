@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/forms'), require('@angular/router'), require('rxjs/add/operator/map'), require('@angular/common'), require('primeng/card'), require('primeng/dropdown'), require('primeng/multiselect'), require('primeng/checkbox'), require('primeng/inputtext'), require('primeng/api'), require('primeng/tooltip'), require('@ng-bootstrap/ng-bootstrap'), require('primeng/accordion'), require('primeng/avatar'), require('primeng/badge'), require('primeng/button'), require('primeng/calendar'), require('primeng/confirmdialog'), require('primeng/confirmpopup'), require('primeng/contextmenu'), require('primeng/dialog'), require('primeng/editor'), require('primeng/fieldset'), require('primeng/fileupload'), require('primeng/inputmask'), require('primeng/inputswitch'), require('primeng/inputtextarea'), require('primeng/knob'), require('primeng/message'), require('primeng/orderlist'), require('primeng/password'), require('primeng/progressspinner'), require('primeng/radiobutton'), require('primeng/ripple'), require('primeng/sidebar'), require('primeng/speeddial'), require('primeng/steps'), require('primeng/table'), require('primeng/tabmenu'), require('primeng/tabview'), require('primeng/toast'), require('primeng/treeselect'), require('@angular/common/http')) :
-    typeof define === 'function' && define.amd ? define('@pics-core/rbac-users', ['exports', '@angular/core', 'rxjs', '@angular/forms', '@angular/router', 'rxjs/add/operator/map', '@angular/common', 'primeng/card', 'primeng/dropdown', 'primeng/multiselect', 'primeng/checkbox', 'primeng/inputtext', 'primeng/api', 'primeng/tooltip', '@ng-bootstrap/ng-bootstrap', 'primeng/accordion', 'primeng/avatar', 'primeng/badge', 'primeng/button', 'primeng/calendar', 'primeng/confirmdialog', 'primeng/confirmpopup', 'primeng/contextmenu', 'primeng/dialog', 'primeng/editor', 'primeng/fieldset', 'primeng/fileupload', 'primeng/inputmask', 'primeng/inputswitch', 'primeng/inputtextarea', 'primeng/knob', 'primeng/message', 'primeng/orderlist', 'primeng/password', 'primeng/progressspinner', 'primeng/radiobutton', 'primeng/ripple', 'primeng/sidebar', 'primeng/speeddial', 'primeng/steps', 'primeng/table', 'primeng/tabmenu', 'primeng/tabview', 'primeng/toast', 'primeng/treeselect', '@angular/common/http'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global["pics-core"] = global["pics-core"] || {}, global["pics-core"]["rbac-users"] = {}), global.ng.core, global.rxjs, global.ng.forms, global.ng.router, global.rxjs["add/operator/map"], global.ng.common, global.i6, global.i7, global.i8, global.i9, global.i11, global.i13, global.i14, global.ngBootstrap, global.accordion, global.avatar, global.badge, global.button, global.calendar, global.confirmdialog, global.confirmpopup, global.contextmenu, global.dialog, global.editor, global.fieldset, global.fileupload, global.inputmask, global.inputswitch, global.inputtextarea, global.knob, global.message, global.orderlist, global.password, global.progressspinner, global.radiobutton, global.ripple, global.sidebar, global.speeddial, global.steps, global.table, global.tabmenu, global.tabview, global.toast, global.treeselect, global.ng.common.http));
-})(this, (function (exports, i0, rxjs, i2, i1, map, i12, i6, i7, i8, i9, i11, i13, i14, ngBootstrap, accordion, avatar, badge, button, calendar, confirmdialog, confirmpopup, contextmenu, dialog, editor, fieldset, fileupload, inputmask, inputswitch, inputtextarea, knob, message, orderlist, password, progressspinner, radiobutton, ripple, sidebar, speeddial, steps, table, tabmenu, tabview, toast, treeselect, http) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/forms'), require('@angular/router'), require('rxjs/add/operator/map'), require('@angular/common'), require('primeng/card'), require('primeng/dropdown'), require('primeng/accordion'), require('primeng/multiselect'), require('primeng/checkbox'), require('primeng/inputtext'), require('primeng/api'), require('primeng/tooltip'), require('@ng-bootstrap/ng-bootstrap'), require('primeng/avatar'), require('primeng/badge'), require('primeng/button'), require('primeng/calendar'), require('primeng/confirmdialog'), require('primeng/confirmpopup'), require('primeng/contextmenu'), require('primeng/dialog'), require('primeng/editor'), require('primeng/fieldset'), require('primeng/fileupload'), require('primeng/inputmask'), require('primeng/inputswitch'), require('primeng/inputtextarea'), require('primeng/knob'), require('primeng/message'), require('primeng/orderlist'), require('primeng/password'), require('primeng/progressspinner'), require('primeng/radiobutton'), require('primeng/ripple'), require('primeng/sidebar'), require('primeng/speeddial'), require('primeng/steps'), require('primeng/table'), require('primeng/tabmenu'), require('primeng/tabview'), require('primeng/toast'), require('primeng/treeselect'), require('@angular/common/http')) :
+    typeof define === 'function' && define.amd ? define('@pics-core/rbac-users', ['exports', '@angular/core', 'rxjs', '@angular/forms', '@angular/router', 'rxjs/add/operator/map', '@angular/common', 'primeng/card', 'primeng/dropdown', 'primeng/accordion', 'primeng/multiselect', 'primeng/checkbox', 'primeng/inputtext', 'primeng/api', 'primeng/tooltip', '@ng-bootstrap/ng-bootstrap', 'primeng/avatar', 'primeng/badge', 'primeng/button', 'primeng/calendar', 'primeng/confirmdialog', 'primeng/confirmpopup', 'primeng/contextmenu', 'primeng/dialog', 'primeng/editor', 'primeng/fieldset', 'primeng/fileupload', 'primeng/inputmask', 'primeng/inputswitch', 'primeng/inputtextarea', 'primeng/knob', 'primeng/message', 'primeng/orderlist', 'primeng/password', 'primeng/progressspinner', 'primeng/radiobutton', 'primeng/ripple', 'primeng/sidebar', 'primeng/speeddial', 'primeng/steps', 'primeng/table', 'primeng/tabmenu', 'primeng/tabview', 'primeng/toast', 'primeng/treeselect', '@angular/common/http'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global["pics-core"] = global["pics-core"] || {}, global["pics-core"]["rbac-users"] = {}), global.ng.core, global.rxjs, global.ng.forms, global.ng.router, global.rxjs["add/operator/map"], global.ng.common, global.i6, global.i7, global.i8, global.i9, global.i10, global.i12, global.i14, global.i15, global.ngBootstrap, global.avatar, global.badge, global.button, global.calendar, global.confirmdialog, global.confirmpopup, global.contextmenu, global.dialog, global.editor, global.fieldset, global.fileupload, global.inputmask, global.inputswitch, global.inputtextarea, global.knob, global.message, global.orderlist, global.password, global.progressspinner, global.radiobutton, global.ripple, global.sidebar, global.speeddial, global.steps, global.table, global.tabmenu, global.tabview, global.toast, global.treeselect, global.ng.common.http));
+})(this, (function (exports, i0, rxjs, i2, i1, map, i13, i6, i7, i8, i9, i10, i12, i14, i15, ngBootstrap, avatar, badge, button, calendar, confirmdialog, confirmpopup, contextmenu, dialog, editor, fieldset, fileupload, inputmask, inputswitch, inputtextarea, knob, message, orderlist, password, progressspinner, radiobutton, ripple, sidebar, speeddial, steps, table, tabmenu, tabview, toast, treeselect, http) { 'use strict';
 
     function _interopNamespace(e) {
         if (e && e.__esModule) return e;
@@ -25,14 +25,15 @@
     var i0__namespace = /*#__PURE__*/_interopNamespace(i0);
     var i2__namespace = /*#__PURE__*/_interopNamespace(i2);
     var i1__namespace = /*#__PURE__*/_interopNamespace(i1);
-    var i12__namespace = /*#__PURE__*/_interopNamespace(i12);
+    var i13__namespace = /*#__PURE__*/_interopNamespace(i13);
     var i6__namespace = /*#__PURE__*/_interopNamespace(i6);
     var i7__namespace = /*#__PURE__*/_interopNamespace(i7);
     var i8__namespace = /*#__PURE__*/_interopNamespace(i8);
     var i9__namespace = /*#__PURE__*/_interopNamespace(i9);
-    var i11__namespace = /*#__PURE__*/_interopNamespace(i11);
-    var i13__namespace = /*#__PURE__*/_interopNamespace(i13);
+    var i10__namespace = /*#__PURE__*/_interopNamespace(i10);
+    var i12__namespace = /*#__PURE__*/_interopNamespace(i12);
     var i14__namespace = /*#__PURE__*/_interopNamespace(i14);
+    var i15__namespace = /*#__PURE__*/_interopNamespace(i15);
 
     var RbacUsersService = /** @class */ (function () {
         function RbacUsersService() {
@@ -890,7 +891,7 @@
         return AlertComponent;
     }());
     AlertComponent.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertComponent, deps: [{ token: AlertService }], target: i0__namespace.ɵɵFactoryTarget.Component });
-    AlertComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: AlertComponent, selector: "app-alert", ngImport: i0__namespace, template: "<div *ngFor=\"let alert of alerts\" class=\"alert-animate {{ cssClass(alert) }} alert-dismissable\">\r\n  {{ alert.message }}\r\n  <a class=\"close\" (click)=\"removeAlert(alert)\">&times;</a>\r\n</div>\r\n", styles: [".alert-animate{position:fixed;top:10px;left:auto;right:10px;z-index:999999;min-width:400px;text-transform:capitalize;margin:0 auto;animation-name:slideInDown;animation-duration:1s;animation-fill-mode:both}.alert-animate .close{padding:3px;border-radius:2px;color:#fff;opacity:1;text-align:center;line-height:17px;font-size:24px}@keyframes slideInDown{0%{transform:translateY(-100%);visibility:visible}to{transform:translateY(0)}}.alert-animate.alert-success{background:#04844b;color:#fff;border-color:#04844b}.alert-danger{background:#b92b28;border-color:#b92b28;color:#fff}.alert-info{color:#fff;background:#0f3164;border-color:#0f3164}\n"], directives: [{ type: i12__namespace.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }] });
+    AlertComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: AlertComponent, selector: "app-alert", ngImport: i0__namespace, template: "<div *ngFor=\"let alert of alerts\" class=\"alert-animate {{ cssClass(alert) }} alert-dismissable\">\r\n  {{ alert.message }}\r\n  <a class=\"close\" (click)=\"removeAlert(alert)\">&times;</a>\r\n</div>\r\n", styles: [".alert-animate{position:fixed;top:10px;left:auto;right:10px;z-index:999999;min-width:400px;text-transform:capitalize;margin:0 auto;animation-name:slideInDown;animation-duration:1s;animation-fill-mode:both}.alert-animate .close{padding:3px;border-radius:2px;color:#fff;opacity:1;text-align:center;line-height:17px;font-size:24px}@keyframes slideInDown{0%{transform:translateY(-100%);visibility:visible}to{transform:translateY(0)}}.alert-animate.alert-success{background:#04844b;color:#fff;border-color:#04844b}.alert-danger{background:#b92b28;border-color:#b92b28;color:#fff}.alert-info{color:#fff;background:#0f3164;border-color:#0f3164}\n"], directives: [{ type: i13__namespace.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertComponent, decorators: [{
                 type: i0.Component,
                 args: [{
@@ -1064,7 +1065,7 @@
         UsersComponent.prototype.getPolicyGroupList = function (_managementGroupId) {
             var _this = this;
             this.userService.getOrgPolicyGroupList(this.orgId).subscribe(function (res) {
-                _this.policyGroupList = res['data'];
+                _this.policyGroupList = res['data'].sort(function (a, b) { return a.name.localeCompare(b.name); });
             }, function (err) { return console.log(err); });
         };
         UsersComponent.prototype.addUser = function () {
@@ -1096,7 +1097,7 @@
                 if (_this.providerAccount && _this.userForm.controls['providerId'].valid) {
                     _this.addProviderUser(userData.providerId, res['data']);
                 }
-                _this.cancel();
+                _this.cancel(true);
                 _this.getUserList();
                 _this.alertService.success('User created successfully');
             }, function (error) {
@@ -1117,7 +1118,7 @@
                 };
             }
             this.userService.updateUser(userData, this.userid).subscribe(function () {
-                _this.cancel();
+                _this.cancel(false);
                 _this.getUserList();
                 _this.userForm.controls['username'].disable();
                 _this.userForm.controls['email'].disable();
@@ -1142,14 +1143,16 @@
             this.userForm.controls['email'].enable();
             this.initializeForm();
             this.userForm.reset();
+            this.formSubmit = false;
             this.sendCredentials = true;
             this.userid = '';
             this.userPolicyGroups = [];
             this.rolePolicyGroups = [];
             this.policyGroupList.map(function (p) { return p.disabled = false; });
             this.validationErrors = {};
+            this.policyGroupsLength = 0;
         };
-        UsersComponent.prototype.cancel = function () {
+        UsersComponent.prototype.cancel = function (changeFlag) {
             if (!this.userid) {
                 this.userForm.reset();
                 this.userForm.patchValue({
@@ -1157,11 +1160,18 @@
                     islocked: false
                 });
                 this.validationErrors = {};
+                this.policyGroupsLength = 0;
             }
             this.providerAccount = false;
             this.formSubmit = false;
             this.userForm.controls['email'].enable();
             this.userForm.controls['username'].enable();
+            if (changeFlag) {
+                this.policyGroupList.map(function (p) { return p.disabled = false; });
+            }
+            this.userPolicyGroups = [];
+            this.rolePolicyGroups = [];
+            this.validationErrors = {};
         };
         UsersComponent.prototype.searchUser = function (event) {
             var value = event.target.value.toLowerCase();
@@ -1171,6 +1181,7 @@
             var _this = this;
             this.userPolicyGroups = [];
             this.validationErrors = {};
+            this.formSubmit = false;
             this.sendCredentials = false;
             this.userid = user.id;
             this.userService.getAllUserList(this.userid).subscribe(function (res) {
@@ -1210,11 +1221,13 @@
             });
         };
         UsersComponent.prototype.removeValue = function (e, item) {
+            e.stopPropagation();
             var selectedPGs = this.userForm.value.userpolicygroups;
             var filteredPgs = selectedPGs.filter(function (s) { return s.id !== Number(item.id); });
             this.userForm.patchValue({
                 userpolicygroups: filteredPgs
             });
+            this.policyGroupsLength = this.userForm.value.userpolicygroups.length;
         };
         UsersComponent.prototype.getRolePolicyGroups = function (roleId) {
             var _this = this;
@@ -1228,7 +1241,7 @@
             }
             this.userService.getRoleById(roleId).subscribe(function (res) {
                 if (res) {
-                    _this.rolePolicyGroups = res['data'].policyGroups;
+                    _this.rolePolicyGroups = res['data'].policyGroups.sort(function (a, b) { return a.policygroupname.localeCompare(b.policygroupname); });
                     var PGS = res['data'].policyGroups
                         .filter(function (item) { return item; })
                         .map(function (item) {
@@ -1246,13 +1259,28 @@
                         userpolicygroups: arr_1
                     });
                     var rolePGs_1 = _this.userForm.value.userpolicygroups.map(function (r) { return r.id; });
-                    _this.policyGroupList.forEach(function (pg) {
+                    var includedIndexes_1 = [];
+                    var excludedIndexes_1 = [];
+                    _this.policyGroupList.forEach(function (pg, index) {
+                        if (rolePGs_1.includes(pg.id)) {
+                            includedIndexes_1.push(index);
+                        }
+                        else {
+                            excludedIndexes_1.push(index);
+                        }
+                    });
+                    var reorderedList = includedIndexes_1.map(function (index) { return _this.policyGroupList[index]; }).concat(excludedIndexes_1.map(function (index) { return _this.policyGroupList[index]; }));
+                    console.log(reorderedList, "reorder");
+                    reorderedList.forEach(function (pg) {
                         if (rolePGs_1.includes(pg.id)) {
                             pg['disabled'] = true;
                         }
                     });
+                    _this.policyGroupList = reorderedList;
+                    _this.userPolicyGroups = _this.userPolicyGroups.sort(function (a, b) { return a.policygroupname.localeCompare(b.policygroupname); });
                     var allPolicyGroups = _this.userForm.value.userpolicygroups.concat(_this.userPolicyGroups);
                     _this.userForm.patchValue({ userpolicygroups: allPolicyGroups });
+                    _this.policyGroupsLength = _this.userForm.value.userpolicygroups.length;
                 }
             }, function (_err) { return _this.alertService.error('Failed to Fetch Policy Groups'); });
         };
@@ -1264,7 +1292,7 @@
         UsersComponent.prototype.deleteUser = function () {
             var _this = this;
             this.userService.deleteUser(this.deletedId).subscribe(function () {
-                _this.cancel();
+                _this.cancel(true);
                 _this.alertService.success('User deleted successfully');
                 $('#Deleteuser').modal('hide');
                 _this.getUserList();
@@ -1285,6 +1313,7 @@
             this.userPolicyGroups = [];
             this.rolePolicyGroups = [];
             this.validationErrors = {};
+            this.policyGroupsLength = 0;
         };
         UsersComponent.prototype.activateUser = function () {
             var _this = this;
@@ -1350,7 +1379,7 @@
             $('#DeleteProfile').modal('show');
         };
         UsersComponent.prototype.removeThumbnail = function () {
-            this.cancel();
+            this.cancel(true);
             this.alertService.success('Profile image deleted successfully.');
             $('#DeleteProfile').modal('hide');
             this.userForm.controls['thumbnail'].reset();
@@ -1380,19 +1409,37 @@
         UsersComponent.prototype.stopPropagation = function (event) {
             event.stopPropagation();
         };
-        UsersComponent.prototype.onModelFirst = function (value) {
-            this.modelFirstName = value && value.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
+        // onModelFirst(value: string): void {
+        //   this.modelFirstName = value && value.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+        // }
+        // onModelMiddle(value: string): void {
+        //   this.modelMiddleName = value && value.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+        // }
+        // onModelLast(value: string): void {
+        //   this.modelLastName = value && value.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+        // }
+        UsersComponent.prototype.selectPolicyGroup = function () {
+            this.policyGroupsLength = this.userForm.value.userpolicygroups.length;
         };
-        UsersComponent.prototype.onModelMiddle = function (value) {
-            this.modelMiddleName = value && value.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
-        };
-        UsersComponent.prototype.onModelLast = function (value) {
-            this.modelLastName = value && value.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
+        UsersComponent.prototype.onPageNameInput = function (event, name) {
+            var input = event.target;
+            var startPosition = input.selectionStart;
+            var endPosition = input.selectionEnd;
+            var pagenameControl = this.userForm.get(name);
+            if (pagenameControl.value) {
+                var newValue = pagenameControl.value
+                    .split(' ')
+                    .map(function (word) { return word.charAt(0).toUpperCase() + word.slice(1); })
+                    .join(' ');
+                pagenameControl.patchValue(newValue, { emitEvent: false });
+                // Restore cursor position
+                input.setSelectionRange(startPosition, endPosition);
+            }
         };
         return UsersComponent;
     }());
     UsersComponent.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: UsersComponent, deps: [{ token: UserOrgService }, { token: i2__namespace.FormBuilder }, { token: AlertService }, { token: DataStoreService }], target: i0__namespace.ɵɵFactoryTarget.Component });
-    UsersComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: UsersComponent, selector: "users", inputs: { RBACORG: "RBACORG", PERMISSION: "PERMISSION" }, ngImport: i0__namespace, template: "<app-alert></app-alert>\r\n<div class=\"permission\">\r\n  <div class=\"row\" [formGroup]=\"userForm\">\r\n    <div class=\"col-lg-4 col-md-6 col-12\">\r\n      <div class=\"clearfix\"></div>\r\n      <div class=\"tab-content py-2 px-0 px-sm-0\">\r\n        <div class=\"tab-pane fade show active\">\r\n          <div class=\"form-group bgiconsearch d-flex align-items-center\">\r\n            <span class=\"p-input-icon-right w-100\">\r\n              <i class=\"pi pi-times-circle\" (click)=\"clearSearch($event)\"></i>\r\n              <input class=\"form-control\" fieldKey=\"SETTINGS_USR_SEARCH_BY_NAME\" placeholder=\"Search by User name\"\r\n                type=\"text\" (keyup)=\"searchUser($event)\" pInputText />\r\n            </span>\r\n            <button type=\"button\" class=\"btn btn-primary btncommon ml-2\" (click)=\"onClickAddUser()\">Add</button>\r\n            <!-- Modified line -->\r\n          </div>\r\n          <div class=\"clearfix\"></div>\r\n          <div class=\"useracess\">\r\n            <div class=\"d-flex align-items-center justify-content-center h-100 w-100 ng-star-inserted\"\r\n              *ngIf=\"!filteredUserList.length\">\r\n              <p>No Record Found</p>\r\n            </div>\r\n            <ng-container *ngFor=\"let item of filteredUserList\">\r\n              <div class=\"row userdata align-items-center\" (click)=\"getUserInfo(item)\"\r\n                [ngClass]=\"{ active: item.id === userid }\">\r\n                <div class=\"col-12\">\r\n                  <img *ngIf=\"!item?.additionalinfo?.thumbnail?.url\" src=\"assets/images/user-empty.png\" alt=\"user\"\r\n                    class=\"userempty mr-2\" />\r\n                  <img *ngIf=\"item?.additionalinfo?.thumbnail?.url\" [src]=\"item?.additionalinfo?.thumbnail?.url\"\r\n                    alt=\"user\" class=\"userempty mr-2\" />\r\n\r\n                  <div class=\"overflow_txt userInforight\">\r\n                    <span class=\"nameuser\">{{ item.firstname + ' ' + item.lastname }}</span>\r\n                    <br />\r\n                    <span class=\"emailuser\">{{ item.email }}</span> <br />\r\n                  </div>\r\n\r\n                  <div class=\"lock-icon\">\r\n                    <span class=\"right-icons\" *ngIf=\"item?.islocked\">\r\n                      <em class=\"fa fa-lock mr-2\" aria-hidden=\"true\" (click)=\"stopPropagation($event)\"></em>\r\n                    </span>\r\n                    <span class=\"right-icons\">\r\n                      <em class=\"fa fa-trash\" (click)=\"delete($event, item.id)\" aria-hidden=\"true\"\r\n                        *showField=\"'SETTINGS_USR_DELETE_USER'\"></em>\r\n                    </span>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </ng-container>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"col-lg-8 col-md-6 col-12 user-right setting-tab mt-2\">\r\n      <p-card class=\"rbac-card h-100\" [style]=\"{ width: '100%' }\">\r\n        <div class=\"strip_head toggleleft\">\r\n          <span class=\"report_head font-weight-bold\">Personal Details</span>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"fname\" class=\"referral-form-labels\">First Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"fname\" type=\"text\" placeholder=\"Enter First Name\" formControlName=\"firstname\"\r\n              fieldKey=\"SETTINGS_USR_FIRST_NAME\" aria-describedby=\"fname\" pInputText [(ngModel)]=\"modelFirstName\"\r\n              (ngModelChange)=\"onModelFirst($event)\"\r\n              (input)=\"onInput($event, 'username', 'First Name', true)\"/>\r\n              <div *ngIf=\"validationErrors['First Name']\" class=\"p-error block mt-1\">{{validationErrors['First Name']}}</div>\r\n            <!-- <div *ngIf=\"formValidate['firstname'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['firstname'].invalid\" class=\"p-error block\">First Name is required </small>\r\n            </div> -->\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"mname\" class=\"referral-form-labels\">Middle Name </label>\r\n            <input id=\"mname\" type=\"text\" placeholder=\"Enter Middle Name\" formControlName=\"middlename\"\r\n              fieldKey=\"SETTINGS_USR_MIDDLE_NAME\" aria-describedby=\"mname\" pInputText [(ngModel)]=\"modelMiddleName\"\r\n              (ngModelChange)=\"onModelMiddle($event)\"\r\n              (input)=\"onInput($event, 'username', 'Middle Name', false)\"/>\r\n              <div *ngIf=\"validationErrors['Middle Name']\" class=\"p-error block mt-1\">{{validationErrors['Middle Name']}}</div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"lName\" class=\"referral-form-labels\">Last Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"lName\" type=\"text\" formControlName=\"lastname\" placeholder=\"Enter Last Name\"\r\n              fieldKey=\"SETTINGS_USR_LAST_NAME\" pInputText [(ngModel)]=\"modelLastName\"\r\n              (ngModelChange)=\"onModelLast($event)\" aria-describedby=\"lName\"\r\n              (input)=\"onInput($event, 'username', 'Last Name', true)\"/>\r\n              <div *ngIf=\"validationErrors['Last Name']\" class=\"p-error block mt-1\">{{validationErrors['Last Name']}}</div>\r\n            <!-- <div *ngIf=\"formValidate['lastname'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['lastname'].invalid\" class=\"p-error block\">Last Name is required </small>\r\n            </div> -->\r\n          </div>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <!-- <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"userName\" class=\"referral-form-labels\">User Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"userName\" type=\"text\" formControlName=\"username\" placeholder=\"Enter User Name\"\r\n              aria-describedby=\"userName\" fieldKey=\"SETTINGS_USR_USERNAME\" pInputText />\r\n            <div *ngIf=\"formValidate['username'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['username'].invalid\" class=\"p-error block\">User Name is required </small>\r\n            </div>\r\n          </div> -->\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"usersEmailid\" class=\"referral-form-labels\">Email\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"usersEmailid\" fieldKey=\"SETTINGS_USR_EMAIL\" formControlName=\"email\" placeholder=\"Enter Email\"\r\n              type=\"text\"\r\n              (input)=\"onInput($event, 'email', 'Email', true)\" pInputText />\r\n              <div *ngIf=\"validationErrors['Email']\" class=\"p-error block mt-1\">{{validationErrors['Email']}}</div>\r\n            <!-- <div *ngIf=\"formValidate['email'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['email'].errors['required']\" class=\"p-error block\">Email is required </small>\r\n            </div>\r\n            <div *ngIf=\"formValidate['email'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['email'].errors['pattern']\" class=\"p-error block\">Valid email is required\r\n              </small>\r\n            </div> -->\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"role\" for=\"role\" class=\"referral-form-labels\">Role\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <p-dropdown inputId=\"role\" [options]=\"userRoles\" placeholder=\"Select a Role\" formControlName=\"userroles\"\r\n              styleClass=\"w-100\" optionLabel=\"name\" [resetFilterOnHide]=\"true\" [filter]=\"true\" [showClear]=\"true\"\r\n              optionValue=\"id\" ariaFilterLabel=\"null\" fieldKey=\"SETTINGS_USR_ROLE\"\r\n              (onChange)=\"getRolePolicyGroups($event.value)\">\r\n              <ng-template let-item pTemplate=\"selectedItem\">\r\n                <div pTooltip=\"{{item?.name}}\" tooltipPosition=\"top\" class=\"text-truncate\"> {{ item?.name }}</div>\r\n              </ng-template>\r\n              <ng-template let-object pTemplate=\"item\">\r\n                {{ object.name }}\r\n              </ng-template>\r\n            </p-dropdown>\r\n            <div *ngIf=\"formValidate['userroles'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['userroles'].invalid\" class=\"p-error block\">Roles is required </small>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"pGroup\" class=\"referral-form-labels\">Policy Groups</label>\r\n            <p-multiSelect [options]=\"policyGroupList\" formControlName=\"userpolicygroups\" [resetFilterOnHide]=\"true\"\r\n              defaultLabel=\"Select Policy Groups\" optionLabel=\"policygroupname\" inputId=\"pGroup\" ariaFilterLabel=\"null\"\r\n              fieldKey=\"SETTINGS_USR_POLICY_GROUP\" display=\"chip\">\r\n              <ng-template let-value pTemplate=\"selectedItems\">\r\n                <div *ngFor=\"let option of value\">\r\n                  <ng-container *ngIf=\"!option.disabled\">\r\n                    <div #selectedpg class=\"p-multiselect-token\" id=\"{{option.id}}\">{{ option.policygroupname }} <em\r\n                        class=\"pi pi-times-circle ml-2 clear-icon\" role=\"button\"\r\n                        (click)=\"removeValue($event, selectedpg)\"></em> </div>\r\n                  </ng-container>\r\n                </div>\r\n                <div *ngIf=\"!rolePolicyGroups.length || value.length == rolePolicyGroups.length\">Select Policy Groups\r\n                </div>\r\n              </ng-template>\r\n              <ng-template let-pg pTemplate=\"item\">\r\n                <div class=\"flex align-items-center gap-2\">\r\n                  <div>{{ pg.name }}</div>\r\n                </div>\r\n              </ng-template>\r\n            </p-multiSelect>\r\n          </div>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-md-12 col-12 mb-1 d-flex align-items-center\" *ngIf=\"!sendCredentials\">\r\n            <label for=\"file\" class=\"btn btn-primary mt-2 mb-2 profile d-flex align-items-center\">\r\n              <span class=\"material-icon material-symbols-outlined action-btn upload mr-2\">cloud_upload</span>Add\r\n              Image</label>\r\n            <span class=\"material-icon material-symbols-outlined text-muted action-btn mx-2\"\r\n              pTooltip=\"Supported file formats are JPG, PNG, JPEG and GIF\" style=\"cursor: pointer;\">\r\n              Info\r\n            </span>\r\n            <input type=\"file\" (change)=\"handleFileInput($event)\" id=\"file\" aria-hidden=\"true\"\r\n              style=\"visibility: hidden; display: none\" />\r\n            <img *ngIf=\"userForm.controls['thumbnail'].value\" [src]=\"userForm.controls['thumbnail'].value\" alt=\"user\"\r\n              class=\"userempty mr-0\" />\r\n            <label class=\"warning ml-2 mb-md-0\"\r\n              [ngStyle]=\"{ color: imageInformation === 'Image size exceeds 100 KB' ? '#fc0303' : '#007cc3'}\">{{\r\n              imageInformation }}</label> <em class=\"pi pi-trash ml-2\" pTooltip=\"Remove Image\"\r\n              *ngIf=\"userForm.controls['thumbnail'].value && imageInformation !== 'Image size exceeds 100 KB'\"\r\n              (click)=\"onClickRemoveProfile()\" style=\"cursor: pointer;\"></em>\r\n          </div>\r\n        </div>\r\n        <!-- <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <div class=\"p-field-checkbox send-credentials\" *ngIf=\"sendCredentials\">\r\n              <p-checkbox class=\"p-m-1 p-m-lg-2\" inputId=\"binary\" [binary]=\"true\"\r\n                fieldKey=\"SETTINGS_USR_EMAIL_TO_CURRENT_USER\" formControlName=\"emailtocurrentuser\">\r\n              </p-checkbox>\r\n              <label for=\"binary\">Send Credentials to Current Logged in User</label>\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <div class=\"p-field-checkbox send-credentials\" *ngIf=\"!sendCredentials\">\r\n              <p-checkbox class=\"p-m-1 p-m-lg-2\" inputId=\"isenabled\" [binary]=\"true\" formControlName=\"isenabled\">\r\n              </p-checkbox>\r\n              <label for=\"isenabled\">Active</label>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <div class=\"p-field-checkbox send-credentials\" *ngIf=\"!sendCredentials\">\r\n              <p-checkbox class=\"p-m-1 p-m-lg-2\" inputId=\"islocked\" [binary]=\"true\" formControlName=\"islocked\">\r\n              </p-checkbox>\r\n              <label for=\"islocked\">Locked</label>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\"></div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\"></div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12 mb-0\">\r\n            <button fieldKey=\"SETTINGS_USR_ADD_UPDATE\" class=\"pull-right mr-2 mb-2 btn btn-primary btncommon\"\r\n              (click)=\"addUser()\">\r\n              {{ userid ? 'Update User' : 'Add User' }}\r\n            </button>\r\n            <button fieldKey=\"SETTINGS_USR_CANCEL\" class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\"\r\n              (click)=\"cancelUser()\">\r\n              Clear\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </p-card>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div class=\"modal\" id=\"Deleteuser\" tabindex=\"-1\" role=\"dialog\">\r\n  <div class=\"modal-dialog\" role=\"document\">\r\n    <div class=\"modal-content\">\r\n      <div class=\"modal-header\">\r\n        <h5 class=\"modal-title\">Delete User</h5>\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n          <span aria-hidden=\"true\">&times;</span>\r\n        </button>\r\n      </div>\r\n      <div class=\"modal-body\">\r\n        Are you sure want to Delete User?\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"mt-2\">\r\n          <button class=\"pull-right mb-2 btn btn-primary btncommon delete\" data-dismiss=\"modal\" (click)=\"deleteUser()\">\r\n            Delete\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\">Cancel</button>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div class=\"modal\" id=\"DeleteProfile\" tabindex=\"-1\" role=\"dialog\">\r\n  <div class=\"modal-dialog\" role=\"document\">\r\n    <div class=\"modal-content\">\r\n      <div class=\"modal-header\">\r\n        <h5 class=\"modal-title\">Delete Profile Image</h5>\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n          <span aria-hidden=\"true\">&times;</span>\r\n        </button>\r\n      </div>\r\n      <div class=\"modal-body\">\r\n        Are you sure you want to delete the Profile Image?\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"mt-2\">\r\n          <button class=\"pull-right mb-2 btn btn-primary btncommon delete\" data-dismiss=\"modal\"\r\n            (click)=\"removeThumbnail()\">\r\n            Delete\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\">Cancel</button>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>", styles: [".head-div{padding-top:9px;padding-left:7px}.bgiconsearch{margin-bottom:5px;padding-bottom:0;font-size:var(--font-13)}.useracess{border-radius:2px;padding:5px 0;overflow-y:auto}.pi-trash{color:red;font-size:var(--font-16)}.action-btn.upload{font-size:var(--font-19)}.userempty{max-width:none;border-radius:50%;height:35px;width:35px;display:inline-block;margin-right:15px}.row.userdata{margin:0;border-bottom:solid 1px var(--table-border);padding:5px 0;cursor:pointer}.overflow_txt{overflow:hidden;text-overflow:ellipsis}.overflow_txt.userInforight{display:inline-block;vertical-align:middle;width:calc(100% - 50px)}.lock-icon{position:absolute;right:15px;top:50%;margin-top:-13px}span.nameuser{font-size:var(--font-13);color:var(--label-text);font-weight:600}.userid,span.emailuser{font-size:var(--font-13);color:#767676}.activate{position:absolute;margin-top:-46px;margin-left:44rem}.toggleleft{font-size:var(--font-14);font-weight:600;display:block;margin-top:-12px;padding-bottom:13px}.report_button{margin-left:12px}.rbac-card .profile{color:#fff}.right-icons .fa{margin-top:3px;display:inline-block;z-index:9}.right-icons .fa-lock{font-size:var(--font-18)}.right-icons .fa-trash{font-size:var(--font-18)}@media screen and (max-width: 767px){.useracess{max-height:400px}}@media screen and (min-width: 768px){.useracess{height:calc(100vh - 188px)}}@media screen and (min-width: 990px) and (max-width: 1024px){.useracess .userempty{height:100%;width:100%}}:host ::ng-deep .clear-icon{font-size:13px}\n"], components: [{ type: AlertComponent, selector: "app-alert" }, { type: i6__namespace.Card, selector: "p-card", inputs: ["header", "subheader", "style", "styleClass"] }, { type: i7__namespace.Dropdown, selector: "p-dropdown", inputs: ["scrollHeight", "filter", "name", "style", "panelStyle", "styleClass", "panelStyleClass", "readonly", "required", "editable", "appendTo", "tabindex", "placeholder", "filterPlaceholder", "filterLocale", "inputId", "selectId", "dataKey", "filterBy", "autofocus", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "autoDisplayFirst", "group", "showClear", "emptyFilterMessage", "emptyMessage", "virtualScroll", "itemSize", "autoZIndex", "baseZIndex", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "ariaLabel", "ariaLabelledBy", "filterMatchMode", "maxlength", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "disabled", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onShow", "onHide", "onClear"] }, { type: i8__namespace.MultiSelect, selector: "p-multiSelect", inputs: ["style", "styleClass", "panelStyle", "panelStyleClass", "inputId", "disabled", "readonly", "group", "filter", "filterPlaceHolder", "filterLocale", "overlayVisible", "tabindex", "appendTo", "dataKey", "name", "label", "ariaLabelledBy", "displaySelectedLabel", "maxSelectedLabels", "selectionLimit", "selectedItemsLabel", "showToggleAll", "emptyFilterMessage", "emptyMessage", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "showHeader", "autoZIndex", "baseZIndex", "filterBy", "virtualScroll", "itemSize", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "filterMatchMode", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "display", "autocomplete", "showClear", "scrollHeight", "defaultLabel", "placeholder", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onClear", "onPanelShow", "onPanelHide"] }, { type: i9__namespace.Checkbox, selector: "p-checkbox", inputs: ["value", "name", "disabled", "binary", "label", "ariaLabelledBy", "ariaLabel", "tabindex", "inputId", "style", "styleClass", "labelStyleClass", "formControl", "checkboxIcon", "readonly", "required", "trueValue", "falseValue"], outputs: ["onChange"] }], directives: [{ type: i2__namespace.NgControlStatusGroup, selector: "[formGroupName],[formArrayName],[ngModelGroup],[formGroup],form:not([ngNoForm]),[ngForm]" }, { type: i2__namespace.FormGroupDirective, selector: "[formGroup]", inputs: ["formGroup"], outputs: ["ngSubmit"], exportAs: ["ngForm"] }, { type: PermissionDirective, selector: "[fieldKey]", inputs: ["fieldKey"] }, { type: i11__namespace.InputText, selector: "[pInputText]" }, { type: i12__namespace.NgIf, selector: "[ngIf]", inputs: ["ngIf", "ngIfThen", "ngIfElse"] }, { type: i12__namespace.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }, { type: i12__namespace.NgClass, selector: "[ngClass]", inputs: ["class", "ngClass"] }, { type: i2__namespace.DefaultValueAccessor, selector: "input:not([type=checkbox])[formControlName],textarea[formControlName],input:not([type=checkbox])[formControl],textarea[formControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]" }, { type: i2__namespace.NgControlStatus, selector: "[formControlName],[ngModel],[formControl]" }, { type: i2__namespace.FormControlName, selector: "[formControlName]", inputs: ["disabled", "formControlName", "ngModel"], outputs: ["ngModelChange"] }, { type: i13__namespace.PrimeTemplate, selector: "[pTemplate]", inputs: ["type", "pTemplate"] }, { type: i14__namespace.Tooltip, selector: "[pTooltip]", inputs: ["tooltipPosition", "tooltipEvent", "appendTo", "positionStyle", "tooltipStyleClass", "tooltipZIndex", "escape", "showDelay", "hideDelay", "life", "positionTop", "positionLeft", "pTooltip", "tooltipDisabled", "tooltipOptions"] }, { type: i12__namespace.NgStyle, selector: "[ngStyle]", inputs: ["ngStyle"] }] });
+    UsersComponent.ɵcmp = i0__namespace.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: UsersComponent, selector: "users", inputs: { RBACORG: "RBACORG", PERMISSION: "PERMISSION" }, ngImport: i0__namespace, template: "<app-alert></app-alert>\r\n<div class=\"permission\">\r\n  <div class=\"row\" [formGroup]=\"userForm\">\r\n    <div class=\"col-lg-4 col-md-6 col-12\">\r\n      <div class=\"clearfix\"></div>\r\n      <div class=\"tab-content py-2 px-0 px-sm-0\">\r\n        <div class=\"tab-pane fade show active\">\r\n          <div class=\"form-group bgiconsearch d-flex align-items-center\">\r\n            <span class=\"p-input-icon-right w-100\">\r\n              <i class=\"pi pi-times-circle\" (click)=\"clearSearch($event)\"></i>\r\n              <input class=\"form-control\" fieldKey=\"SETTINGS_USR_SEARCH_BY_NAME\" placeholder=\"Search by User name\"\r\n                type=\"text\" (keyup)=\"searchUser($event)\" pInputText />\r\n            </span>\r\n            <button type=\"button\" class=\"btn btn-primary btncommon ml-2\" (click)=\"onClickAddUser()\">Add</button>\r\n            <!-- Modified line -->\r\n          </div>\r\n          <div class=\"clearfix\"></div>\r\n          <div class=\"useracess\">\r\n            <div class=\"d-flex align-items-center justify-content-center h-100 w-100 ng-star-inserted\"\r\n              *ngIf=\"!filteredUserList.length\">\r\n              <p>No Record Found</p>\r\n            </div>\r\n            <ng-container *ngFor=\"let item of filteredUserList\">\r\n              <div class=\"row userdata align-items-center\" (click)=\"getUserInfo(item)\"\r\n                [ngClass]=\"{ active: item.id === userid }\">\r\n                <div class=\"col-12\">\r\n                  <img *ngIf=\"!item?.additionalinfo?.thumbnail?.url\" src=\"assets/images/user-empty.png\" alt=\"user\"\r\n                    class=\"userempty mr-2\" />\r\n                  <img *ngIf=\"item?.additionalinfo?.thumbnail?.url\" [src]=\"item?.additionalinfo?.thumbnail?.url\"\r\n                    alt=\"user\" class=\"userempty mr-2\" />\r\n\r\n                  <div class=\"overflow_txt userInforight\">\r\n                    <span class=\"nameuser\">{{ item.firstname + ' ' + item.lastname }}</span>\r\n                    <br />\r\n                    <span class=\"emailuser\">{{ item.email }}</span> <br />\r\n                  </div>\r\n\r\n                  <div class=\"lock-icon\">\r\n                    <span class=\"right-icons\" *ngIf=\"item?.islocked\">\r\n                      <em class=\"fa fa-lock mr-2\" aria-hidden=\"true\" (click)=\"stopPropagation($event)\"></em>\r\n                    </span>\r\n                    <span class=\"right-icons\">\r\n                      <em class=\"fa fa-trash\" (click)=\"delete($event, item.id)\" aria-hidden=\"true\"\r\n                        *showField=\"'SETTINGS_USR_DELETE_USER'\"></em>\r\n                    </span>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </ng-container>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"col-lg-8 col-md-6 col-12 user-right setting-tab mt-2\">\r\n      <p-card class=\"rbac-card h-100\" [style]=\"{ width: '100%' }\">\r\n        <div class=\"strip_head toggleleft\">\r\n          <span class=\"report_head font-weight-bold\">Personal Details</span>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"fname\" class=\"referral-form-labels\">First Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"fname\" type=\"text\" placeholder=\"Enter First Name\" formControlName=\"firstname\"\r\n              fieldKey=\"SETTINGS_USR_FIRST_NAME\" aria-describedby=\"fname\" pInputText [(ngModel)]=\"modelFirstName\"\r\n              (keyup)=\"onPageNameInput($event, 'firstname')\"\r\n              (input)=\"onInput($event, 'username', 'First Name', true)\"/>\r\n              <div *ngIf=\"validationErrors['First Name']\" class=\"p-error block mt-1\">{{validationErrors['First Name']}}</div>\r\n            <div *ngIf=\"!validationErrors['First Name'] && formValidate['firstname'].errors && formSubmit\">\r\n              <div *ngIf=\"formValidate['firstname'].invalid\" class=\"p-error block mt-1\">First Name is required </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"mname\" class=\"referral-form-labels\">Middle Name </label>\r\n            <input id=\"mname\" type=\"text\" placeholder=\"Enter Middle Name\" formControlName=\"middlename\"\r\n              fieldKey=\"SETTINGS_USR_MIDDLE_NAME\" aria-describedby=\"mname\" pInputText [(ngModel)]=\"modelMiddleName\"\r\n              (keyup)=\"onPageNameInput($event, 'middlename')\" (input)=\"onInput($event, 'username', 'Middle Name', false)\" />\r\n            <div *ngIf=\"validationErrors['Middle Name']\" class=\"p-error block mt-1\">{{validationErrors['Middle Name']}}\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"lName\" class=\"referral-form-labels\">Last Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"lName\" type=\"text\" formControlName=\"lastname\" placeholder=\"Enter Last Name\"\r\n              fieldKey=\"SETTINGS_USR_LAST_NAME\" pInputText [(ngModel)]=\"modelLastName\"\r\n              (keyup)=\"onPageNameInput($event, 'middlename')\" aria-describedby=\"lName\"\r\n              (input)=\"onInput($event, 'username', 'Last Name', true)\"/>\r\n              <div *ngIf=\"validationErrors['Last Name']\" class=\"p-error block mt-1\">{{validationErrors['Last Name']}}</div>\r\n            <div *ngIf=\"!validationErrors['Last Name'] && formValidate['lastname'].errors && formSubmit\">\r\n              <div *ngIf=\"formValidate['lastname'].invalid\" class=\"p-error block mt-1\">Last Name is required </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <!-- <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"userName\" class=\"referral-form-labels\">User Name\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"userName\" type=\"text\" formControlName=\"username\" placeholder=\"Enter User Name\"\r\n              aria-describedby=\"userName\" fieldKey=\"SETTINGS_USR_USERNAME\" pInputText />\r\n            <div *ngIf=\"formValidate['username'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['username'].invalid\" class=\"p-error block\">User Name is required </small>\r\n            </div>\r\n          </div> -->\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label for=\"usersEmailid\" class=\"referral-form-labels\">Email\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <input id=\"usersEmailid\" fieldKey=\"SETTINGS_USR_EMAIL\" formControlName=\"email\" placeholder=\"Enter Email\"\r\n              type=\"text\"\r\n              (input)=\"onInput($event, 'email', 'Email', true)\" pInputText />\r\n              <div *ngIf=\"validationErrors['Email']\" class=\"p-error block mt-1\">{{validationErrors['Email']}}</div>\r\n            <div *ngIf=\"!validationErrors['Email'] && formValidate['email'].errors && formSubmit\">\r\n              <div *ngIf=\"formValidate['email'].errors['required']\" class=\"p-error block mt-1\">Email is required </div>\r\n            </div>\r\n            <!-- <div *ngIf=\"formValidate['email'].errors && formSubmit\">\r\n              <small *ngIf=\"formValidate['email'].errors['pattern']\" class=\"p-error block\">Valid email is required\r\n              </small>\r\n            </div> -->\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <label aria-labelledby=\"role\" for=\"role\" class=\"referral-form-labels\">Role\r\n              <span class=\"requiredfield text-danger\">*</span>\r\n            </label>\r\n            <p-dropdown inputId=\"role\" [options]=\"userRoles\" placeholder=\"Select a Role\" formControlName=\"userroles\"\r\n              styleClass=\"w-100\" optionLabel=\"name\" [resetFilterOnHide]=\"true\" [filter]=\"true\" [showClear]=\"true\"\r\n              optionValue=\"id\" ariaFilterLabel=\"null\" fieldKey=\"SETTINGS_USR_ROLE\"\r\n              (onChange)=\"getRolePolicyGroups($event.value)\">\r\n              <ng-template let-item pTemplate=\"selectedItem\">\r\n                <div pTooltip=\"{{item?.name}}\" tooltipPosition=\"top\" class=\"text-truncate\"> {{ item?.name }}</div>\r\n              </ng-template>\r\n              <ng-template let-object pTemplate=\"item\">\r\n                {{ object.name }}\r\n              </ng-template>\r\n            </p-dropdown>\r\n            <div *ngIf=\"formValidate['userroles'].errors && formSubmit\">\r\n              <div *ngIf=\"formValidate['userroles'].invalid\" class=\"p-error block mt-1\">Role is required </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-md-12 col-12\">\r\n            <p-accordion class=\"w-full policygroup-accordion\" iconPos=\"endVal\">\r\n              <p-accordionTab>\r\n                <ng-template pTemplate=\"header\">\r\n                  <span class=\"flex align-items-center head-text gap-2 w-full\">\r\n                    <span class=\"font-bold\"><label for=\"pGroup\" class=\"referral-form-labels mb-0\">Additional Policy Groups</label> <span *ngIf=\"policyGroupsLength > 0\" class=\"pg-count ml-2\">{{policyGroupsLength}}</span> </span>\r\n                  </span>\r\n                </ng-template>\r\n                <p-multiSelect [options]=\"policyGroupList\" formControlName=\"userpolicygroups\" [resetFilterOnHide]=\"true\"\r\n                  defaultLabel=\"Select Policy Groups\" optionLabel=\"policygroupname\" inputId=\"pGroup\"\r\n                  ariaFilterLabel=\"null\" fieldKey=\"SETTINGS_USR_POLICY_GROUP\" (onChange)=\"selectPolicyGroup()\" display=\"chip\" styleClass=\"policygroup-v2\">\r\n                  <ng-template let-value pTemplate=\"selectedItems\">\r\n                    <div *ngFor=\"let option of value\">\r\n                      <ng-container>\r\n                        <div #selectedpg class=\"p-multiselect-token\" [ngClass]=\"option.disabled ? 'disabled' : '' \" id=\"{{option.id}}\">\r\n                          <span class=\"policygroupname\">\r\n                            {{ option.policygroupname }}\r\n                          </span>\r\n                          <span class=\"rolepg ml-2 badge badge-primary\" *ngIf=\"option.disabled\">\r\n                            Role\r\n                          </span>\r\n                          <em class=\"pi pi-times-circle ml-2 clear-icon right-sec\" *ngIf=\"!option.disabled\" role=\"button\"\r\n                            (click)=\"removeValue($event, selectedpg)\"></em>\r\n                        </div>\r\n                      </ng-container>\r\n                    </div>\r\n                    <div *ngIf=\"!value || value.length === 0\">Select Policy Groups\r\n                    </div>\r\n                  </ng-template>\r\n                  <ng-template let-pg pTemplate=\"item\">\r\n                    <div class=\"d-flex align-items-center flex-row justify-content-between gap-2 disabled-list w-100\">\r\n                      <div>{{ pg.name }}</div>\r\n                      <span class=\"rolepg ml-2 badge badge-primary\" *ngIf=\"pg.disabled\">Role</span>\r\n                    </div>\r\n                  </ng-template>\r\n                </p-multiSelect>\r\n              </p-accordionTab>\r\n            </p-accordion>\r\n\r\n          </div>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-md-12 col-12 mb-1 d-flex align-items-center\" *ngIf=\"!sendCredentials\">\r\n            <label for=\"file\" class=\"btn btn-primary mt-2 mb-2 profile d-flex align-items-center\">\r\n              <span class=\"material-icon material-symbols-outlined action-btn upload mr-2\">cloud_upload</span>Add\r\n              Image</label>\r\n            <span class=\"material-icon material-symbols-outlined text-muted action-btn mx-2\"\r\n              pTooltip=\"Supported file formats are JPG, PNG, JPEG and GIF\" style=\"cursor: pointer;\">\r\n              Info\r\n            </span>\r\n            <input type=\"file\" (change)=\"handleFileInput($event)\" id=\"file\" aria-hidden=\"true\"\r\n              style=\"visibility: hidden; display: none\" />\r\n            <img *ngIf=\"userForm.controls['thumbnail'].value\" [src]=\"userForm.controls['thumbnail'].value\" alt=\"user\"\r\n              class=\"userempty mr-0\" />\r\n            <label class=\"warning ml-2 mb-md-0\"\r\n              [ngStyle]=\"{ color: imageInformation === 'Image size exceeds 100 KB' ? '#fc0303' : '#007cc3'}\">{{\r\n              imageInformation }}</label> <em class=\"pi pi-trash ml-2\" pTooltip=\"Remove Image\"\r\n              *ngIf=\"userForm.controls['thumbnail'].value && imageInformation !== 'Image size exceeds 100 KB'\"\r\n              (click)=\"onClickRemoveProfile()\" style=\"cursor: pointer;\"></em>\r\n          </div>\r\n        </div>\r\n        <!-- <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <div class=\"p-field-checkbox send-credentials\" *ngIf=\"sendCredentials\">\r\n              <p-checkbox class=\"p-m-1 p-m-lg-2\" inputId=\"binary\" [binary]=\"true\"\r\n                fieldKey=\"SETTINGS_USR_EMAIL_TO_CURRENT_USER\" formControlName=\"emailtocurrentuser\">\r\n              </p-checkbox>\r\n              <label for=\"binary\">Send Credentials to Current Logged in User</label>\r\n            </div>\r\n          </div>\r\n        </div> -->\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <div class=\"p-field-checkbox send-credentials\" *ngIf=\"!sendCredentials\">\r\n              <p-checkbox class=\"p-m-1 p-m-lg-2\" inputId=\"isenabled\" [binary]=\"true\" formControlName=\"isenabled\">\r\n              </p-checkbox>\r\n              <label for=\"isenabled\">Active</label>\r\n            </div>\r\n          </div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\">\r\n            <div class=\"p-field-checkbox send-credentials\" *ngIf=\"!sendCredentials\">\r\n              <p-checkbox class=\"p-m-1 p-m-lg-2\" inputId=\"islocked\" [binary]=\"true\" formControlName=\"islocked\">\r\n              </p-checkbox>\r\n              <label for=\"islocked\">Locked</label>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"p-fluid p-formgrid row\">\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\"></div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12\"></div>\r\n          <div class=\"p-field col-lg-4 col-sm-4 col-md-12 col-12 mb-0\">\r\n            <button fieldKey=\"SETTINGS_USR_ADD_UPDATE\" class=\"pull-right mr-2 mb-2 btn btn-primary btncommon\"\r\n              (click)=\"addUser()\">\r\n              {{ userid ? 'Update User' : 'Add User' }}\r\n            </button>\r\n            <button fieldKey=\"SETTINGS_USR_CANCEL\" class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\"\r\n              (click)=\"cancelUser()\">\r\n              Clear\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </p-card>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div class=\"modal\" id=\"Deleteuser\" tabindex=\"-1\" role=\"dialog\">\r\n  <div class=\"modal-dialog\" role=\"document\">\r\n    <div class=\"modal-content\">\r\n      <div class=\"modal-header\">\r\n        <h5 class=\"modal-title\">Delete User</h5>\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n          <span aria-hidden=\"true\">&times;</span>\r\n        </button>\r\n      </div>\r\n      <div class=\"modal-body\">\r\n        Are you sure want to Delete User?\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"mt-2\">\r\n          <button class=\"pull-right mb-2 btn btn-primary btncommon delete\" data-dismiss=\"modal\" (click)=\"deleteUser()\">\r\n            Delete\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\">Cancel</button>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div class=\"modal\" id=\"DeleteProfile\" tabindex=\"-1\" role=\"dialog\">\r\n  <div class=\"modal-dialog\" role=\"document\">\r\n    <div class=\"modal-content\">\r\n      <div class=\"modal-header\">\r\n        <h5 class=\"modal-title\">Delete Profile Image</h5>\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n          <span aria-hidden=\"true\">&times;</span>\r\n        </button>\r\n      </div>\r\n      <div class=\"modal-body\">\r\n        Are you sure you want to delete the Profile Image?\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"mt-2\">\r\n          <button class=\"pull-right mb-2 btn btn-primary btncommon delete\" data-dismiss=\"modal\"\r\n            (click)=\"removeThumbnail()\">\r\n            Delete\r\n          </button>\r\n          <button class=\"pull-right mb-2 mr-2 btn bg-white text-primary btncancel\" data-dismiss=\"modal\">Cancel</button>\r\n        </div>\r\n        <div class=\"clearfix\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>", styles: [".head-div{padding-top:9px;padding-left:7px}.bgiconsearch{margin-bottom:5px;padding-bottom:0;font-size:var(--font-13)}.useracess{border-radius:2px;padding:5px 0;overflow-y:auto}.pi-trash{color:red;font-size:var(--font-16)}.action-btn.upload{font-size:var(--font-19)}.userempty{max-width:none;border-radius:50%;height:35px;width:35px;display:inline-block;margin-right:15px}.row.userdata{margin:0;border-bottom:solid 1px var(--table-border);padding:5px 0;cursor:pointer}.overflow_txt{overflow:hidden;text-overflow:ellipsis}.overflow_txt.userInforight{display:inline-block;vertical-align:middle;width:calc(100% - 50px)}.lock-icon{position:absolute;right:15px;top:50%;margin-top:-13px}span.nameuser{font-size:var(--font-13);color:var(--label-text);font-weight:600}.userid,span.emailuser{font-size:var(--font-13);color:#767676}.activate{position:absolute;margin-top:-46px;margin-left:44rem}.toggleleft{font-size:var(--font-14);font-weight:600;display:block;margin-top:-12px;padding-bottom:13px}.report_button{margin-left:12px}.rbac-card .profile{color:#fff}.right-icons .fa{margin-top:3px;display:inline-block;z-index:9}.right-icons .fa-lock{font-size:var(--font-18)}.right-icons .fa-trash{font-size:var(--font-18)}@media screen and (max-width: 767px){.useracess{max-height:400px}}@media screen and (min-width: 768px){.useracess{height:calc(100vh - 188px)}}@media screen and (min-width: 990px) and (max-width: 1024px){.useracess .userempty{height:100%;width:100%}}:host ::ng-deep .clear-icon{font-size:13px}:host ::ng-deep .policygroup-accordion .policygroup-v2.p-multiselect .p-multiselect-panel{top:auto!important}\n"], components: [{ type: AlertComponent, selector: "app-alert" }, { type: i6__namespace.Card, selector: "p-card", inputs: ["header", "subheader", "style", "styleClass"] }, { type: i7__namespace.Dropdown, selector: "p-dropdown", inputs: ["scrollHeight", "filter", "name", "style", "panelStyle", "styleClass", "panelStyleClass", "readonly", "required", "editable", "appendTo", "tabindex", "placeholder", "filterPlaceholder", "filterLocale", "inputId", "selectId", "dataKey", "filterBy", "autofocus", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "autoDisplayFirst", "group", "showClear", "emptyFilterMessage", "emptyMessage", "virtualScroll", "itemSize", "autoZIndex", "baseZIndex", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "ariaLabel", "ariaLabelledBy", "filterMatchMode", "maxlength", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "disabled", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onShow", "onHide", "onClear"] }, { type: i8__namespace.Accordion, selector: "p-accordion", inputs: ["multiple", "style", "styleClass", "expandIcon", "collapseIcon", "activeIndex"], outputs: ["onClose", "onOpen", "activeIndexChange"] }, { type: i8__namespace.AccordionTab, selector: "p-accordionTab", inputs: ["header", "disabled", "cache", "transitionOptions", "selected"], outputs: ["selectedChange"] }, { type: i9__namespace.MultiSelect, selector: "p-multiSelect", inputs: ["style", "styleClass", "panelStyle", "panelStyleClass", "inputId", "disabled", "readonly", "group", "filter", "filterPlaceHolder", "filterLocale", "overlayVisible", "tabindex", "appendTo", "dataKey", "name", "label", "ariaLabelledBy", "displaySelectedLabel", "maxSelectedLabels", "selectionLimit", "selectedItemsLabel", "showToggleAll", "emptyFilterMessage", "emptyMessage", "resetFilterOnHide", "dropdownIcon", "optionLabel", "optionValue", "optionDisabled", "optionGroupLabel", "optionGroupChildren", "showHeader", "autoZIndex", "baseZIndex", "filterBy", "virtualScroll", "itemSize", "showTransitionOptions", "hideTransitionOptions", "ariaFilterLabel", "filterMatchMode", "tooltip", "tooltipPosition", "tooltipPositionStyle", "tooltipStyleClass", "autofocusFilter", "display", "autocomplete", "showClear", "scrollHeight", "defaultLabel", "placeholder", "options", "filterValue"], outputs: ["onChange", "onFilter", "onFocus", "onBlur", "onClick", "onClear", "onPanelShow", "onPanelHide"] }, { type: i10__namespace.Checkbox, selector: "p-checkbox", inputs: ["value", "name", "disabled", "binary", "label", "ariaLabelledBy", "ariaLabel", "tabindex", "inputId", "style", "styleClass", "labelStyleClass", "formControl", "checkboxIcon", "readonly", "required", "trueValue", "falseValue"], outputs: ["onChange"] }], directives: [{ type: i2__namespace.NgControlStatusGroup, selector: "[formGroupName],[formArrayName],[ngModelGroup],[formGroup],form:not([ngNoForm]),[ngForm]" }, { type: i2__namespace.FormGroupDirective, selector: "[formGroup]", inputs: ["formGroup"], outputs: ["ngSubmit"], exportAs: ["ngForm"] }, { type: PermissionDirective, selector: "[fieldKey]", inputs: ["fieldKey"] }, { type: i12__namespace.InputText, selector: "[pInputText]" }, { type: i13__namespace.NgIf, selector: "[ngIf]", inputs: ["ngIf", "ngIfThen", "ngIfElse"] }, { type: i13__namespace.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }, { type: i13__namespace.NgClass, selector: "[ngClass]", inputs: ["class", "ngClass"] }, { type: i2__namespace.DefaultValueAccessor, selector: "input:not([type=checkbox])[formControlName],textarea[formControlName],input:not([type=checkbox])[formControl],textarea[formControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]" }, { type: i2__namespace.NgControlStatus, selector: "[formControlName],[ngModel],[formControl]" }, { type: i2__namespace.FormControlName, selector: "[formControlName]", inputs: ["disabled", "formControlName", "ngModel"], outputs: ["ngModelChange"] }, { type: i14__namespace.PrimeTemplate, selector: "[pTemplate]", inputs: ["type", "pTemplate"] }, { type: i15__namespace.Tooltip, selector: "[pTooltip]", inputs: ["tooltipPosition", "tooltipEvent", "appendTo", "positionStyle", "tooltipStyleClass", "tooltipZIndex", "escape", "showDelay", "hideDelay", "life", "positionTop", "positionLeft", "pTooltip", "tooltipDisabled", "tooltipOptions"] }, { type: i13__namespace.NgStyle, selector: "[ngStyle]", inputs: ["ngStyle"] }] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: UsersComponent, decorators: [{
                 type: i0.Component,
                 args: [{
@@ -1450,13 +1497,13 @@
         return DirectivesModule;
     }());
     DirectivesModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: DirectivesModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
-    DirectivesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: DirectivesModule, declarations: [PermissionDirective], imports: [i12.CommonModule], exports: [PermissionDirective] });
-    DirectivesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: DirectivesModule, imports: [[i12.CommonModule]] });
+    DirectivesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: DirectivesModule, declarations: [PermissionDirective], imports: [i13.CommonModule], exports: [PermissionDirective] });
+    DirectivesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: DirectivesModule, imports: [[i13.CommonModule]] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: DirectivesModule, decorators: [{
                 type: i0.NgModule,
                 args: [{
                         declarations: [PermissionDirective],
-                        imports: [i12.CommonModule],
+                        imports: [i13.CommonModule],
                         exports: [PermissionDirective]
                     }]
             }] });
@@ -1467,12 +1514,12 @@
         return AlertModule;
     }());
     AlertModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
-    AlertModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertModule, declarations: [AlertComponent], imports: [i12.CommonModule], exports: [AlertComponent] });
-    AlertModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertModule, imports: [[i12.CommonModule]] });
+    AlertModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertModule, declarations: [AlertComponent], imports: [i13.CommonModule], exports: [AlertComponent] });
+    AlertModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertModule, imports: [[i13.CommonModule]] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: AlertModule, decorators: [{
                 type: i0.NgModule,
                 args: [{
-                        imports: [i12.CommonModule],
+                        imports: [i13.CommonModule],
                         declarations: [AlertComponent],
                         exports: [AlertComponent]
                     }]
@@ -1503,12 +1550,12 @@
         return SharedPipesModule;
     }());
     SharedPipesModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: SharedPipesModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
-    SharedPipesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: SharedPipesModule, declarations: [CapitalizePipe], imports: [i12.CommonModule], exports: [CapitalizePipe] });
-    SharedPipesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: SharedPipesModule, providers: [CapitalizePipe], imports: [[i12.CommonModule]] });
+    SharedPipesModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: SharedPipesModule, declarations: [CapitalizePipe], imports: [i13.CommonModule], exports: [CapitalizePipe] });
+    SharedPipesModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: SharedPipesModule, providers: [CapitalizePipe], imports: [[i13.CommonModule]] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: SharedPipesModule, decorators: [{
                 type: i0.NgModule,
                 args: [{
-                        imports: [i12.CommonModule],
+                        imports: [i13.CommonModule],
                         declarations: [CapitalizePipe],
                         exports: [CapitalizePipe],
                         providers: [CapitalizePipe]
@@ -1521,21 +1568,21 @@
         return PicsRbacUsersModule;
     }());
     PicsRbacUsersModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacUsersModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
-    PicsRbacUsersModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacUsersModule, declarations: [UsersComponent], imports: [i12.CommonModule,
+    PicsRbacUsersModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacUsersModule, declarations: [UsersComponent], imports: [i13.CommonModule,
             i2.FormsModule,
             i2.ReactiveFormsModule,
             ngBootstrap.NgbModule,
             tabmenu.TabMenuModule,
             tabview.TabViewModule,
             treeselect.TreeSelectModule,
-            i9.CheckboxModule,
+            i10.CheckboxModule,
             i7.DropdownModule,
             i6.CardModule,
             confirmdialog.ConfirmDialogModule,
-            accordion.AccordionModule,
+            i8.AccordionModule,
             message.MessageModule,
             table.TableModule,
-            i11.InputTextModule,
+            i12.InputTextModule,
             calendar.CalendarModule,
             editor.EditorModule,
             fieldset.FieldsetModule,
@@ -1548,7 +1595,7 @@
             ripple.RippleModule,
             avatar.AvatarModule,
             badge.BadgeModule,
-            i8.MultiSelectModule,
+            i9.MultiSelectModule,
             inputswitch.InputSwitchModule,
             progressspinner.ProgressSpinnerModule,
             speeddial.SpeedDialModule,
@@ -1564,21 +1611,21 @@
             AlertModule,
             SharedPipesModule], exports: [UsersComponent] });
     PicsRbacUsersModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: PicsRbacUsersModule, imports: [[
-                i12.CommonModule,
+                i13.CommonModule,
                 i2.FormsModule,
                 i2.ReactiveFormsModule,
                 ngBootstrap.NgbModule,
                 tabmenu.TabMenuModule,
                 tabview.TabViewModule,
                 treeselect.TreeSelectModule,
-                i9.CheckboxModule,
+                i10.CheckboxModule,
                 i7.DropdownModule,
                 i6.CardModule,
                 confirmdialog.ConfirmDialogModule,
-                accordion.AccordionModule,
+                i8.AccordionModule,
                 message.MessageModule,
                 table.TableModule,
-                i11.InputTextModule,
+                i12.InputTextModule,
                 calendar.CalendarModule,
                 editor.EditorModule,
                 fieldset.FieldsetModule,
@@ -1591,7 +1638,7 @@
                 ripple.RippleModule,
                 avatar.AvatarModule,
                 badge.BadgeModule,
-                i8.MultiSelectModule,
+                i9.MultiSelectModule,
                 inputswitch.InputSwitchModule,
                 progressspinner.ProgressSpinnerModule,
                 speeddial.SpeedDialModule,
@@ -1614,21 +1661,21 @@
                             UsersComponent
                         ],
                         imports: [
-                            i12.CommonModule,
+                            i13.CommonModule,
                             i2.FormsModule,
                             i2.ReactiveFormsModule,
                             ngBootstrap.NgbModule,
                             tabmenu.TabMenuModule,
                             tabview.TabViewModule,
                             treeselect.TreeSelectModule,
-                            i9.CheckboxModule,
+                            i10.CheckboxModule,
                             i7.DropdownModule,
                             i6.CardModule,
                             confirmdialog.ConfirmDialogModule,
-                            accordion.AccordionModule,
+                            i8.AccordionModule,
                             message.MessageModule,
                             table.TableModule,
-                            i11.InputTextModule,
+                            i12.InputTextModule,
                             calendar.CalendarModule,
                             editor.EditorModule,
                             fieldset.FieldsetModule,
@@ -1641,7 +1688,7 @@
                             ripple.RippleModule,
                             avatar.AvatarModule,
                             badge.BadgeModule,
-                            i8.MultiSelectModule,
+                            i9.MultiSelectModule,
                             inputswitch.InputSwitchModule,
                             progressspinner.ProgressSpinnerModule,
                             speeddial.SpeedDialModule,
@@ -1671,7 +1718,7 @@
     }());
     RbacUsersModule.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacUsersModule, deps: [], target: i0__namespace.ɵɵFactoryTarget.NgModule });
     RbacUsersModule.ɵmod = i0__namespace.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacUsersModule, declarations: [RbacUsersComponent], imports: [PicsRbacUsersModule], exports: [RbacUsersComponent] });
-    RbacUsersModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacUsersModule, providers: [UserOrgService, http.HttpClient, AlertService, i13.ConfirmationService, PermissionStore, DataStoreService], imports: [[
+    RbacUsersModule.ɵinj = i0__namespace.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacUsersModule, providers: [UserOrgService, http.HttpClient, AlertService, i14.ConfirmationService, PermissionStore, DataStoreService], imports: [[
                 PicsRbacUsersModule
             ]] });
     i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: RbacUsersModule, decorators: [{
@@ -1686,7 +1733,7 @@
                         exports: [
                             RbacUsersComponent
                         ],
-                        providers: [UserOrgService, http.HttpClient, AlertService, i13.ConfirmationService, PermissionStore, DataStoreService]
+                        providers: [UserOrgService, http.HttpClient, AlertService, i14.ConfirmationService, PermissionStore, DataStoreService]
                     }]
             }] });
 
