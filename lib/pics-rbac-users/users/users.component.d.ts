@@ -43,9 +43,6 @@ export declare class UsersComponent implements OnInit {
     httpService: any;
     lastname: string;
     middlename: string;
-    modelFirstName: string;
-    modelMiddleName: string;
-    modelLastName: string;
     rolePolicyGroups: any;
     userPolicyGroups: any;
     validationErrors: {
