@@ -656,9 +656,7 @@ class UsersComponent {
         this.rolePolicyGroups = [];
         this.policyGroupList.map((p) => p.disabled = false);
         this.validationErrors = {};
-        this.userForm.patchValue({
-            userpolicygroups: ''
-        });
+        this.userForm.get('userpolicygroups').setValue([]);
         this.policyGroupsLength = this.userForm.value.userpolicygroups.length;
         //this.ms.onChange.emit({ originalEvent: null, value: [] });
     }
