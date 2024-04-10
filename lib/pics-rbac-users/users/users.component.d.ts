@@ -6,6 +6,7 @@ import { RBACINFO } from '../@core/urls/users-url.config';
 import { UserOrgService } from '../@core/service/user-org.service';
 import { AlertService } from '../@core/service/alert.service';
 import { DataStoreService } from '../@core/service/data-store.service';
+import { MultiSelect } from 'primeng/multiselect';
 import * as i0 from "@angular/core";
 export declare class UsersComponent implements OnInit {
     private userService;
@@ -14,6 +15,7 @@ export declare class UsersComponent implements OnInit {
     private _storeservice;
     RBACORG: RBACINFO;
     PERMISSION: any;
+    ms: MultiSelect;
     userList: UserGroup[];
     providerList: ProviderGroup[];
     filteredUserList: UserGroup[];
@@ -50,8 +52,10 @@ export declare class UsersComponent implements OnInit {
     };
     inputValidationMethod: any;
     policyGroupsLength: any;
+    enableButton: boolean;
     constructor(userService: UserOrgService, fb: FormBuilder, alertService: AlertService, _storeservice: DataStoreService);
     ngOnInit(): void;
+    isAnyFormControlWithValue(): boolean;
     initializeForm(): void;
     get formValidate(): {
         [key: string]: import("@angular/forms").AbstractControl;
